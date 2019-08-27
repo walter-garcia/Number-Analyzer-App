@@ -1,0 +1,14 @@
+div.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+div.form-group input {
+  width: 500px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: italic;
+}

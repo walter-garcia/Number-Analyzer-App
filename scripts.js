@@ -62,9 +62,6 @@ function analyze() {
     resTotal.innerHTML += `A soma dos valores cadastrados é ${sum} <br>`;
     resTotal.innerHTML += `A média dos valores cadastrados é ${average} <br>`;
   }
-  $("#analyzeModal").on("hidden.bs.modal", function() {
-    $("input.form-control").focus();
-  });
 }
 
 numberValue.addEventListener("keyup", event => {
